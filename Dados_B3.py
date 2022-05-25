@@ -714,7 +714,7 @@ class Antifragil(threading.Thread):
             print(df.iloc[i, 0:])
         '''
 if __name__ == '__main__':
-    papel = 'MGLU3'  #BRAP3,ABEV3,BBDC4,BOVA11,CIEL3,CSNA3,GGBR4,ITUB4,ITSA4,PETR4,USIM5,VALE3# DTEX3 CVCB3 CSNA3 OIBR3 TIET3 PETR4,POSI3 BPAN4 BRAP4 ENEV3 SHOW3'Piores MGLU3 RENT3 CSAN3 HYPE3 TIMP3,LAME3 CGAS3 RPMG3 RSID3 SAPR4 JBSS3.SA_MEN'#'PETR3.SA_MEN'#'bcdata_IPCA'os dados do IPCA são mensais #USD_BRL Dados Históricos_MEN #IRBR3 exemplo de Peru!
+    papel = 'PETR4'  #BBSE3,BRAP3,ABEV3,BBDC4,BOVA11,CIEL3,CSNA3,GGBR4,ITUB4,ITSA4,PETR4,USIM5,VALE3# DTEX3 CVCB3 CSNA3 OIBR3 TIET3 PETR4,POSI3 BPAN4 BRAP4 ENEV3 SHOW3'Piores MGLU3 RENT3 CSAN3 HYPE3 TIMP3,LAME3 CGAS3 RPMG3 RSID3 SAPR4 JBSS3.SA_MEN'#'PETR3.SA_MEN'#'bcdata_IPCA'os dados do IPCA são mensais #USD_BRL Dados Históricos_MEN #IRBR3 exemplo de Peru!
     path = 'E:/OneDrive/Investimento/COTAHIST/COTAHIST_A2020.TXT' #WEGE3 MGLU3
     descartados = ['TELB4', 'ENGI3', 'VVAR3', 'UGPA3']
     inf = 2
@@ -774,4 +774,4 @@ if __name__ == '__main__':
     minutos = int(round((duracao / 3600 - duracao // 3600) * 60, 0))
     segundos = int(round((duracao % 60), 0))
     print(f'Tempo de execução:{horas}:{minutos}:{segundos}')
-'''
+    '''
